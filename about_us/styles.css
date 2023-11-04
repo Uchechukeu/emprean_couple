@@ -1,0 +1,220 @@
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+ul.relative {
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: self-end;
+    
+    
+}
+
+.cart {
+    width: 50px;
+    height: 50px;
+}
+
+li {
+    align-content: right;
+    display: inline;
+    font-size: small;
+    font-family: sans-serif;
+    
+}
+.center {
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.centre {
+    
+    display: inline;
+    background-color: rgb(142, 214, 214);
+}
+.about {
+    background-color: rgb(245, 229, 211);
+}
+
+#about {
+    background-color: rgb(245, 229, 211);
+}
+
+#nav {
+    background-color: rgb(142, 214, 214);
+}
+
+.mail {
+    text-align: center;
+    background-color: rgb(142, 214, 214);
+    height: 70px;
+    padding-top: 6%;
+    
+
+}
+
+.email {
+    background-color: black;
+    color: white;
+    font-size: smaller;
+    font-family: sans-serif;
+    display: inline-block;
+    outline: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.td {
+    padding: 10px;
+    width: 50%;
+}
+
+.text {
+    font-size: x-large;
+}
+
+.justify {
+    text-align: justify;
+}
+.justified {
+    text-align: left;
+    padding-left: 30%;
+    font-size: x-large;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 70px;
+    font-size: larger;
+    text-align: justify;
+    align-items: normal;
+    background-color: rgb(245, 229, 211);
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 25%;
+    font-size: larger;
+    text-align: justify;
+    align-content: space-between;
+    width: 50%;
+}
+
+@media screen and (max-width:1000px) {
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+
+    }
+    .abt {
+        padding-left: 0%;
+
+    }
+    .dis {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+   
+    .dis {
+        padding-top: 0;
+        border: none;
+    }
+
+    .cad img {
+        height: 120px;
+        border: none; 
+        
+    }
+}
+.card {
+    margin: 20px;
+}
+
+.abt {
+    padding-left: 20%;
+    margin-bottom: 0;
+    padding-top: 0;
+    background-color: rgb(245, 229, 211);
+}
+
+.cad {
+    background-color: rgb(142, 214, 214);
+    padding: 0, 40px, 0, 40px;
+    border: 50px solid rgb(245, 229, 211);
+    border-radius: 100px;
+    height: 500px;
+    
+}
+
+.learn {
+    display: inline-block; 
+    width: 180px; 
+    height: 30px; 
+    padding-top: 8px; 
+    align-content: center; 
+    color: black; 
+    background-color: white; 
+    text-decoration: none;
+}
+
+/*#red {
+    border: solid red;
+}*/
+
+.pad {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.cad img {
+    padding-top: 100px;
+}
+
+footer  {
+    background-color: black;
+    color: white;
+    
+}
+footer img {
+    color:aliceblue;
+}
+
+.fflex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+.dis {
+    display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.input {
+    display: inline-block;
+    outline: none;
+    box-sizing: border-box;
+    margin: 0;
+}
