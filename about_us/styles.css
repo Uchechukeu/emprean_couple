@@ -1,11 +1,17 @@
 body {
-    font-family: sans-serif;
+    font-family: poppins;
+    margin: 0;
 }
 
-a {
+li a,.center a, .learn a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
 }
 ul.relative {
     position: absolute;
@@ -104,6 +110,8 @@ li {
     background-color: rgb(245, 229, 211);
 }
 
+
+
 .flex {
     display: flex;
     flex-direction: row;
@@ -142,9 +150,51 @@ li {
         border: none; 
         
     }
+    .flex-container {
+        width: fit-content;
+        margin: 0;
+        margin-left: 0%;
+        margin-right: 0;
+        padding: 0;
+        padding-left: 1%;
+        border: solid green;
+    }
+    .card {
+        width: fit-content;
+        margin-left: 9%;
+        border: solid grey;   
+    }
+
+    .card p {
+        width: 80%;
+        margin-left: 15%;
+    }
+
+    .card img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    footer {
+        width: fit-content;
+        border: solid yellow;
+    }
 }
 .card {
     margin: 20px;
+}
+
+.img {
+    margin-top: 40px;
+    margin-right: 20px;
+    height: 400px;
+    margin-left: 7%;
+    width: 500px;
+}
+
+.abtp {
+    width: 500px;
 }
 
 .abt {
