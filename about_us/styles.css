@@ -157,12 +157,12 @@ li {
         margin-right: 0;
         padding: 0;
         padding-left: 1%;
-        border: solid green;
+    
     }
     .card {
         width: fit-content;
         margin-left: 9%;
-        border: solid grey;   
+          
     }
 
     .card p {
@@ -178,7 +178,7 @@ li {
 
     footer {
         width: fit-content;
-        border: solid yellow;
+        
     }
 }
 .card {
