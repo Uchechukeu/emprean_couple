@@ -42,6 +42,7 @@ li {
     padding-left: 70px;
     padding-right: 50px;
     padding-top: 20px;
+
 }
 .centre {
     
@@ -54,6 +55,7 @@ li {
 
 #about {
     background-color: rgb(245, 229, 211);
+    border: solid rgb(245, 229, 211);
 }
 
 #nav {
@@ -116,13 +118,21 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-left: 25%;
+    margin-left: 0%;
+    margin-right: 0%;
     font-size: larger;
     text-align: justify;
     align-content: space-between;
-    width: 50%;
+    width: 80%;
+    
+    padding-left: 10%;
+    padding-right: 0;
 }
 
+.social {
+    width: 10px;
+    
+}
 @media screen and (max-width:1000px) {
     .flex-container{
         display: flex;
@@ -130,6 +140,16 @@ li {
         flex-wrap: wrap-reverse;
 
     }
+
+    .flex{
+        padding-left: 4%;
+    }
+
+    .social img {
+        width: 30px;
+        
+    }
+
     .abt {
         padding-left: 0%;
 
@@ -145,24 +165,39 @@ li {
         border: none;
     }
 
+    .learn {
+        width: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 0;
+        
+        border-width: 7px;
+        border-radius: 7px;
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
     .cad img {
         height: 120px;
-        border: none; 
+        
+        
         
     }
     .flex-container {
         width: fit-content;
-        margin: 0;
+        margin-bottom: 30px;
         margin-left: 0%;
         margin-right: 0;
         padding: 0;
-        padding-left: 1%;
-    
     }
     .card {
         width: fit-content;
         margin-left: 9%;
-          
+    }
+
+    #three{
+        font-size: large;
+    
     }
 
     .card p {
@@ -180,6 +215,11 @@ li {
         width: fit-content;
         
     }
+    
+
+    
+
+    
 }
 .card {
     margin: 20px;
@@ -206,11 +246,13 @@ li {
 
 .cad {
     background-color: rgb(142, 214, 214);
-    padding: 0, 40px, 0, 40px;
-    border: 50px solid rgb(245, 229, 211);
+    padding: 0, 20px, 0, 20px;
     border-radius: 100px;
     height: 500px;
-    
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
 }
 
 .learn {
@@ -256,8 +298,8 @@ footer img {
 .dis {
     display: flex;
     flex-direction: row;
-    align-content: space-evenly;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 
