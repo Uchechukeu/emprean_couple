@@ -329,6 +329,7 @@ footer img {
     }
 
     .card img {
+        margin-top: 3px;
         width: 100%;
     
     }
@@ -354,4 +355,15 @@ footer img {
         justify-items: left;
         
     }
+
+    #about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .border {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
 }
